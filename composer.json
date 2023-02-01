@@ -1,0 +1,19 @@
+{
+    "name": "akmalmp/belajar-php-composer-hello",
+    "description": "belajar php composer hello",
+    "type": "library",
+    "authors": [
+        {
+            "name": "akmmp241",
+            "email": "akm.mp24@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Akmal\\Belajar\\": "src/"
+        }
+    }
+}
